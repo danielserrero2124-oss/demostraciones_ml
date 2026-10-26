@@ -1,0 +1,11 @@
+div.proof#proof > p:first-child { font-style: normal; }
+
+/* Portada */
+.portada { display: flex; align-items: center; gap: 1.5rem; flex-wrap: wrap;
+  border: 1px solid var(--pst-color-border, #ddd); border-radius: 10px; padding: 1rem 1.25rem; margin: 1rem 0 1.5rem; }
+.portada-foto { width: 140px; height: 175px; object-fit: cover; border-radius: 8px; }
+.portada-texto { flex: 1; min-width: 180px; }
+.portada-texto p { margin: .2rem 0; }
+.portada-autor { font-size: 1.4rem; font-weight: 700; }
+.portada-detalle { opacity: .8; }
+.portada-logo { width: 110px; height: auto; background: #fff; border-radius: 6px; padding: 4px; }

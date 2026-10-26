@@ -1,0 +1,24 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "K-vecinos más cercanos (K-NN)"
+    chapters:
+      - file: cap01_knn_riesgo
+      - file: cap02_knn_lema_1nn
+  - caption: "Regresión Ridge"
+    chapters:
+      - file: cap03_ridge_propiedades
+      - file: cap04_ridge_ortogonalidad
+      - file: cap05_ridge_estandarizacion
+  - caption: "Regresión Lasso"
+    chapters:
+      - file: cap06_lasso
+  - caption: "Árboles de decisión"
+    chapters:
+      - file: cap07_arbol_error
+  - caption: "Boosting"
+    chapters:
+      - file: cap08_adaboost
+  - caption: "Referencias"
+    chapters:
+      - file: bibliografia

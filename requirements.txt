@@ -1,0 +1,8 @@
+jupyter-book==1.0.4.post1
+sphinx-proof==0.4.0
+ipykernel
+numpy
+pandas
+matplotlib
+scikit-learn
+scipy
